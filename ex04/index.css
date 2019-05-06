@@ -1,0 +1,85 @@
+a
+{
+color: red;
+}
+
+a:visited
+{
+color: green;
+}
+
+a:hover
+{
+color: pink;
+}
+
+a:active
+{
+    color: blue;
+}
+
+.pouet
+{
+background-color: yellow;
+color: red;    
+}
+
+.nouille p
+{
+border: double;
+color: #32a1ce;
+}
+
+p ~ p
+{
+padding: 0.5rem;
+}
+
+#floatedcolumns
+{
+height: 200px;
+border: 2px solid black;    
+}
+
+.elementA .elementB .elementC .elementD
+{
+float: left;
+}
+
+.elementE
+{
+float: right;
+}
+
+#flexedboxes
+{
+display: flex;
+justify-content: space-between;
+height: 200px;
+border: 2px solid black;   
+}
+
+.element1
+{
+background-color: red;    
+}
+
+.element2
+{
+background-color: blue;    
+}
+
+.element3
+{
+background-color: yellow;    
+}
+
+.element4
+{
+background-color: black;
+}
+
+.element5
+{
+background-color:green;
+}
