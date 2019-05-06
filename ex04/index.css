@@ -15,7 +15,7 @@ color: pink;
 
 a:active
 {
-    color: blue;
+color: blue;
 }
 
 .pouet
@@ -56,7 +56,7 @@ float: right;
 display: flex;
 justify-content: space-between;
 height: 200px;
-border: 2px solid black;   
+border: 2px solid green;   
 }
 
 .element1
@@ -82,4 +82,54 @@ background-color: black;
 .element5
 {
 background-color:green;
+}
+
+#gridtemplate
+{
+grid-gap: 20px;
+height: 200px;
+border: 10px solid B;   
+display: grid;
+}
+
+.elementA1, .elementA2,  .elementA3,  .elementA4,  .elementA5  
+{
+grid-row: 1;
+}
+
+.elementA1
+{
+background-color: blue;
+grid-column: 1 / 5;
+}
+
+.elementA2
+{
+background-color: aqua;
+grid-column: 2 / 5;
+}
+
+.elementA3
+{
+background-color: yellowgreen;
+grid-column: 3 / 5;
+}
+
+.elementA4
+{
+background-color: coral;
+grid-column: 4 / 5;
+}
+
+.elementA5
+{
+background-color: cyan;
+grid-column: 5 / 5;
+}
+
+.elementA6
+{
+background-color: darkgoldenrod;
+grid-column: 1 / 5;
+grid-row: 2;
 }
